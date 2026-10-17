@@ -17,8 +17,8 @@
 
 **Step 8:** If the left pointer is a thread, use it as the inorder predecessor. Otherwise, find the rightmost node in the left subtree.
 
-Step 9: If the right pointer is a thread, use it as the inorder successor. Otherwise, find the leftmost node in the right subtree.
+**Step 9:** If the right pointer is a thread, use it as the inorder successor. Otherwise, find the leftmost node in the right subtree.
 
-Step 10: Display the predecessor and successor wherever they exist. If either does not exist, display an appropriate message.
+**Step 10:** Display the predecessor and successor wherever they exist. If either does not exist, display an appropriate message.
 
-Step 11: Stop the program.
+**Step 11:** Stop the program.
