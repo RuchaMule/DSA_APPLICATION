@@ -1,1 +1,1 @@
-Threaded BST Predecessor and Successor: Implement a C++ program to find and display the inorder predecessor and successor of a specified node in a threaded BST, wherever they exist.
+Implement College & Found Management System using a Singly Linked List in C++. The System stores details of lost and found items such as Item ID, Item Name, and Status (Lost/Found).It allows the user to add, search, remove, and display item details dynamically using linked list Operations
