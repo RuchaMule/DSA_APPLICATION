@@ -1,1 +1,1 @@
-Implement College & Found Management System using a Singly Linked List in C++. The System stores details of lost and found items such as Item ID, Item Name, and Status (Lost/Found).It allows the user to add, search, remove, and display item details dynamically using linked list Operations
+Implement College & Found Management System using a Singly Linked List in C++. The System stores details of lost and found items such as Item ID, Item Name, and Status (Lost/Found).It allows the user to add, search, remove, and display item details dynamically using linked list Operations.
