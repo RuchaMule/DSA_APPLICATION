@@ -1,6 +1,6 @@
 ## Flowchart
 
-1. START
+1. **START**
 
 2. Input the number of locations and roads.
 
@@ -19,9 +19,13 @@
 
 8. If **Yes**:
    - Check whether the destination is reachable.
-   - If **Yes**, display the shortest route and total distance.
+   - If **Yes**, display the route and total distance.
    - If **No**, display "No path exists".
 
-9. STOP
+9. **STOP**
 
-**Note:** Draw Start/Stop in ovals, input/output steps in parallelograms, processing steps in rectangles, and decision steps in diamonds.
+**Note:**
+- Start/Stop: Oval
+- Input/Output: Parallelogram
+- Processing: Rectangle
+- Decision: Diamond
