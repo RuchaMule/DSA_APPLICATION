@@ -1,0 +1,1 @@
+Develop a C++ program to represent locations and roads as a weighted graph. Apply Dijkstra's algorithm to find the shortest route between a source and destination selected by the user. Display the route sequence, total distance, and a message if no path exists.
