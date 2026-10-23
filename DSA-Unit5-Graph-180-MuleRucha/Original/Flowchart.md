@@ -2,29 +2,29 @@
 
 1. **START**
 
-2. Input the number of locations and roads.
+2. Input number of locations and roads.
 
-3. Create a weighted graph and enter road distances.
+3. Create weighted graph and enter road distances.
 
 4. Input source and destination.
 
-5. Initialize distances and set source distance = 0.
+5. Initialize distances; set source distance = 0.
 
-6. Check whether the priority queue is empty.
+6. **Priority queue empty?**
+   - **Yes:** Check whether destination is reachable.
+   - **No:** Remove minimum-distance location from priority queue.
 
-7. If **No**:
-   - Remove the minimum-distance location.
-   - Relax adjacent edges and update distances and parents.
-   - Repeat the queue loop.
+7. Relax adjacent edges and update distances and parents.
 
-8. If **Yes**:
-   - Check whether the destination is reachable.
-   - If **Yes**, display the route and total distance.
-   - If **No**, display "No path exists".
+8. Repeat the queue loop until the priority queue becomes empty.
 
-9. **STOP**
+9. **Destination reachable?**
+   - **Yes:** Display route and total distance.
+   - **No:** Display "No path exists".
 
-**Note:**
+10. **STOP**
+
+### Note
 - Start/Stop: Oval
 - Input/Output: Parallelogram
 - Processing: Rectangle
