@@ -1,3 +1,9 @@
+
+# Dijkstra's Shortest Path Algorithm with Road Update
+
+## C++ Code
+
+```cpp
 #include <iostream>
 #include <climits>
 using namespace std;
@@ -105,12 +111,6 @@ int main()
     cout << "Enter number of roads: ";
     cin >> m;
 
-    if (m < 0 || m > n * (n - 1) / 2)
-    {
-        cout << "Invalid number of roads!\n";
-        return 0;
-    }
-
     cout << "Enter roads (source destination distance):\n";
 
     for (i = 0; i < m; i++)
@@ -118,7 +118,7 @@ int main()
         cin >> u >> v >> w;
 
         if (u < 0 || u >= n || v < 0 ||
-            v >= n || w < 0 || u == v)
+            v >= n || w < 0)
         {
             cout << "Invalid road details!\n";
             return 0;
@@ -148,7 +148,7 @@ int main()
     cin >> u >> v >> w;
 
     if (u < 0 || u >= n || v < 0 ||
-        v >= n || w < 0 || u == v)
+        v >= n || w < 0)
     {
         cout << "Invalid road details!\n";
         return 0;
@@ -184,3 +184,5 @@ int main()
 
     return 0;
 }
+```
+
