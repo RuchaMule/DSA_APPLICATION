@@ -1,23 +1,22 @@
 
-# Shortest Path Finding Algorithm
+# Dijkstra's Algorithm - Before and After Road Update
 
 ```mermaid
 flowchart TD
-    A([START]) --> B[/Input number of locations and roads/]
-    B --> C[Create weighted graph and enter road distances]
+    A([START]) --> B[/Input locations and roads/]
+    B --> C[Create weighted graph]
     C --> D[/Input source and destination/]
-    D --> E[Initialize distances; set source distance = 0]
-    E --> F{Priority queue empty?}
+    D --> E{Are inputs valid?}
 
-    F -- No --> G[Remove minimum-distance location from priority queue]
-    G --> H[Relax adjacent edges and update distances and parents]
-    H --> F
+    E -- No --> F[/Display invalid input message/]
+    F --> X([STOP])
 
-    F -- Yes --> I{Destination reachable?}
-    I -- Yes --> J[/Display route and total distance/]
-    I -- No --> K[/Display No path exists/]
-
-    J --> L([STOP])
-    K --> L
+    E -- Yes --> G[Run Dijkstra before update]
+    G --> H[/Display shortest route and distance, or no-path message/]
+    H --> I[/Input and validate new road/]
+    I --> J[Add road and display updated graph]
+    J --> K[Run Dijkstra after update]
+    K --> L[/Display updated route and distance, or no-path message/]
+    L --> M[Compare before and after results]
+    M --> N([STOP])
 ```
-
